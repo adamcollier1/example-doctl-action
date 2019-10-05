@@ -28,7 +28,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: static-example-service
+  name: static-example-service-2
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-certificate-id: "1edd9452-b17d-4178-8dc1-bd8f4532f08d"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
