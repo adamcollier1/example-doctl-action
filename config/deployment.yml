@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: static-example
 spec:
-  replicas: 1
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 1
